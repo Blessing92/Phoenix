@@ -1,0 +1,44 @@
+# Python files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+
+# Development environments
+venv/
+env/
+.tox/
+.pyenv/
+.python-version
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+*.egg
+
+# Virtual environment
+.pipenv/
+.pipfile.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE (e.g., PyCharm)
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# System files and folders
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
