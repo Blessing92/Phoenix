@@ -4,10 +4,17 @@ import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Server address and port
-server_address = ('<Machine 1 IP>', 12345)  # Replace with the actual IP of Machine 1
+server_address = ('172.19.155.228', 8080)
 
 # Connect to the server
-client_socket.connect(server_address)
+print("connecting to the server ....")
+try:
+    client_socket.connect(server_address)
+    print("Connected to the server!")
+except Exception as e:
+    print("Connection failed ", str(e))
+    raise
+
 
 # Input a number for which you want to calculate the factorial
 number = 10  # You can change this to any positive integer
