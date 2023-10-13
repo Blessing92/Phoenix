@@ -4,7 +4,7 @@ import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Server address and port
-server_address = ('192.168.8.100', 8080)
+server_address = ('192.168.8.116', 8080)
 
 # Connect to the server
 print("connecting to the server ....")
@@ -17,7 +17,7 @@ except Exception as e:
 
 
 # Input a number for which you want to calculate the factorial
-number = 10  # You can change this to any positive integer
+number = 4  # You can change this to any positive integer
 
 # Send the number to the server
 client_socket.send(str(number).encode())
