@@ -5,7 +5,7 @@ import math
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to a specific address and port
-server_address = ('192.168.1.135', 8080)  # Use any available port
+server_address = ('192.168.8.116', 8080)  # Use any available port
 server_socket.bind(server_address)
 
 # Listen for incoming connections
