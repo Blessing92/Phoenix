@@ -4,7 +4,7 @@ import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Server address and port
-server_address = ('192.168.8.116', 8080)
+server_address = ('172.19.158.127', 8080)
 
 # Connect to the server
 print("connecting to the server ....")
