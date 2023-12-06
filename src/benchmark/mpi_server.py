@@ -20,24 +20,31 @@ def perform_computation_with_clients(data):
     try:
         # Connect to the clients
         server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        server_address = ('0.0.0.0', 8080)  # Use 0.0.0.0 to listen on all available interfaces
+        server_address = ('192.168.1.75', 8080)  # Use 0.0.0.0 to listen on all available interfaces
         server_socket.bind(server_address)
         server_socket.listen(size)  # Number of expected clients
 
         print(f"Server (rank {rank}) is ready to receive connections...")
 
-        start_rows, end_rows = distribute_work(*map(int, data.split(',')), size)
+        # start_rows, end_rows = distribute_work(*map(int, data.split(',')), size)
+        print(f"size: {size}")
+        start_rows, end_rows = distribute_work(*map(int, data.split(',')), size=size)
 
-        # Distribute workload to clients
-        for client_rank in range(1, size):
+        connected_clients = 0 
+        print(f"Number of connected clients: {connected_clients}")
+
+        # Wait until the specified number of clients are connected
+        while connected_clients < 4:
             client_socket, client_address = server_socket.accept()
-            print(f"Connection from client (rank {client_rank})")
+            print(f"Connection from client (rank {connected_clients + 1})")
 
             # Send data to the client
-            client_socket.send(f"{start_rows[client_rank]},{end_rows[client_rank]}".encode())
+            client_socket.send(f"{start_rows[connected_clients + 1]},{end_rows[connected_clients + 1]}".encode())
 
             # Close the client socket
             client_socket.close()
+
+            connected_clients += 1
 
         # Collect results from clients
         all_results = [np.empty((0,)) for _ in range(size)]
@@ -63,4 +70,5 @@ def perform_computation_with_clients(data):
 
 # Example usage
 if rank == 0:
+    print(f"server rank: {rank}")
     perform_computation_with_clients("100,5,16")

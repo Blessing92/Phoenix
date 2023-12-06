@@ -1,0 +1,2791 @@
+You have set the following MPI options - please be VERY careful
+and contact support@hpcf.cam.ac.uk if you have not already done so
+MPI_TEST= MPI_F90=mpf90 -fast -xO3 -xarch=v9b -fpover -xalias=actual -xildoff -xlic_lib=sunperf MPI_F90_LIBS= -lmpi MPI_IS_SLOW= MPI_BUFFERING_NONE=1 MPI_CC=mpcc -fast -xO3 -xarch=v9b -xvector -U__MATHERR_ERRNO_DONTCARE -ftrap=common -xstrconst -v -xildoff -xlic_lib=sunperf MPI_RUN=mpirun MPI_CC_LIBS= -lmpi
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  6605728  microseconds
+    (=  6605728  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1599.9040      1.1621      1.0001      1.7624
+Scale:      1062.9548      1.9097      1.5052      3.0948
+Add:        1020.4771      2.7748      2.3518      5.2091
+Triad:      1005.9253      2.9176      2.3859      5.4027
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  824537  microseconds
+    (=  824537  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1679.1536      0.9618      0.9529      0.9745
+Scale:      1064.0328      1.5050      1.5037      1.5097
+Add:        1021.1580      2.3537      2.3503      2.3732
+Triad:      1008.0357      2.3865      2.3809      2.4042
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  841711  microseconds
+    (=  841711  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1476.7395      1.1413      1.0835      1.2078
+Scale:       989.8197      1.7822      1.6165      1.8369
+Add:         908.4928      2.8269      2.6417      3.1044
+Triad:       889.4740      2.7761      2.6982      2.8422
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  831941  microseconds
+    (=  831941  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1788.9728      1.0551      0.8944      1.1493
+Scale:      1066.3468      1.5046      1.5004      1.5133
+Add:        1023.3010      2.3534      2.3454      2.3741
+Triad:      1008.8675      2.3848      2.3789      2.4033
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  846805  microseconds
+    (=  846805  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1578.4712      1.2936      1.0136      2.2546
+Scale:      1048.9788      1.7932      1.5253      2.5253
+Add:        1007.2387      2.6817      2.3828      3.3473
+Triad:       989.9316      2.9284      2.4244      4.4295
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  838417  microseconds
+    (=  838417  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1679.7424      1.7414      0.9525      3.1720
+Scale:      1064.8727      2.0252      1.5025      2.9503
+Add:        1021.4957      3.3087      2.3495      4.6522
+Triad:      1008.9854      3.5197      2.3786      4.7467
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  912054  microseconds
+    (=  912054  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1534.5823      1.6194      1.0426      2.1944
+Scale:       968.5048      2.1528      1.6520      2.5809
+Add:         869.6802      3.5851      2.7596      4.2857
+Triad:       888.2303      3.5927      2.7020      4.2839
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  838474  microseconds
+    (=  838474  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1383.2945      1.9192      1.1567      2.6567
+Scale:       861.5017      2.6813      1.8572      3.7156
+Add:         957.3890      4.0322      2.5068      5.0927
+Triad:       866.2230      4.0491      2.7706      4.6952
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1398303  microseconds
+    (=  1398303  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1098.7683      2.0439      1.4562      2.8618
+Scale:       788.5335      2.4224      2.0291      2.7654
+Add:         771.2744      3.8720      3.1117      4.8890
+Triad:       770.0714      3.8129      3.1166      4.7491
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  2250903  microseconds
+    (=  2250903  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1651.9557      4.7430      0.9685      6.2512
+Scale:      1002.7978      2.4632      1.5955      2.7100
+Add:         792.7786      3.6506      3.0273      4.1309
+Triad:       689.7432      3.8835      3.4796      4.2658
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  845833  microseconds
+    (=  845833  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1306.8287      2.1119      1.2243      2.7244
+Scale:       720.4523      3.1561      2.2208      3.8275
+Add:         791.0302      5.0218      3.0340      5.8571
+Triad:       692.8460      4.7997      3.4640      5.4181
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  941155  microseconds
+    (=  941155  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1238.5905      2.1643      1.2918      2.9601
+Scale:       731.2684      3.3598      2.1880      4.3860
+Add:         792.6414      4.6653      3.0279      5.5661
+Triad:       612.8390      4.8644      3.9162      5.8624
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1044109  microseconds
+    (=  1044109  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1317.8291      5.0688      1.2141      7.7850
+Scale:       791.9432      2.3526      2.0203      2.5397
+Add:         680.1638      3.6588      3.5286      3.8051
+Triad:       675.1710      3.9038      3.5547      4.1051
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  902594  microseconds
+    (=  902594  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1129.5295      2.2263      1.4165      2.9922
+Scale:       541.0615      3.4296      2.9571      4.0319
+Add:         526.8344      5.2139      4.5555      5.9660
+Triad:       606.5931      5.6299      3.9565      6.7330
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  3339284  microseconds
+    (=  3339284  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1511.2931      2.2055      1.0587      2.8054
+Scale:       753.6182      3.5710      2.1231      4.2127
+Add:         705.0717      5.4417      3.4039      6.2461
+Triad:       721.4172      5.4600      3.3268      6.6279
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1393463  microseconds
+    (=  1393463  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        790.1317      4.6702      2.0250      5.9796
+Scale:       701.9194      2.6396      2.2795      2.7821
+Add:         621.5795      4.2318      3.8611      4.5203
+Triad:       639.3683      4.1292      3.7537      4.4608
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1008641  microseconds
+    (=  1008641  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1334.4365      2.2154      1.1990      2.7753
+Scale:       575.2184      3.4258      2.7816      4.1041
+Add:         540.1137      5.3757      4.4435      6.3147
+Triad:       632.5186      5.3772      3.7944      6.2904
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1174309  microseconds
+    (=  1174309  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        804.6525      4.9090      1.9884      6.2422
+Scale:       703.0291      2.7905      2.2759      3.1668
+Add:         653.1442      4.7710      3.6745      5.2346
+Triad:       665.8879      4.5398      3.6042      4.9141
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1510752  microseconds
+    (=  1510752  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1032.6291      2.2027      1.5494      2.7007
+Scale:       527.3382      3.8226      3.0341      4.7558
+Add:         548.0001      5.3340      4.3796      6.1796
+Triad:       564.1746      5.3905      4.2540      6.0297
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1260472  microseconds
+    (=  1260472  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        811.8250      2.5013      1.9709      3.6942
+Scale:       530.0369      4.1264      3.0187      5.1900
+Add:         512.4937      5.9089      4.6830      6.9167
+Triad:       502.5868      5.7278      4.7753      7.3395
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1553604  microseconds
+    (=  1553604  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        827.6600      2.4541      1.9332      3.1640
+Scale:       511.4898      3.8564      3.1281      4.8118
+Add:         520.7504      5.8525      4.6087      6.5460
+Triad:       509.4511      5.9911      4.7110      7.6878
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1273611  microseconds
+    (=  1273611  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1021.6285      2.5708      1.5661      3.7828
+Scale:       639.9565      3.8244      2.5002      4.8788
+Add:         485.8811      5.5074      4.9395      6.3336
+Triad:       471.9822      5.8976      5.0849      8.0107
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  869284  microseconds
+    (=  869284  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1560.4808      3.2476      1.0253      5.5240
+Scale:       850.8023      3.5509      1.8806      4.1615
+Add:         696.7338      5.5382      3.4446      6.7832
+Triad:       632.7906      5.2914      3.7927      5.9610
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1158370  microseconds
+    (=  1158370  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1183.7901      3.1411      1.3516      4.1328
+Scale:       640.2118      4.0176      2.4992      4.5750
+Add:         499.0653      5.6383      4.8090      6.5176
+Triad:       456.9388      6.0668      5.2523      7.3303
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1856163  microseconds
+    (=  1856163  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1020.4205      2.4926      1.5680      3.2492
+Scale:       512.3297      3.9341      3.1230      4.5759
+Add:         527.3972      6.2547      4.5506      7.0640
+Triad:       492.6043      6.0405      4.8721      7.6149
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  909671  microseconds
+    (=  909671  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1331.5535      2.4551      1.2016      3.1175
+Scale:       752.8710      4.5619      2.1252      6.2591
+Add:         645.3056      6.4625      3.7192      7.5212
+Triad:       621.4514      6.8669      3.8619      8.6289
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  5312559  microseconds
+    (=  5312559  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        956.0229      2.5577      1.6736      3.0072
+Scale:       520.7760      4.1818      3.0723      4.6853
+Add:         420.7388      6.3379      5.7043      6.9559
+Triad:       403.8373      6.4800      5.9430      7.1190
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  2389027  microseconds
+    (=  2389027  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        922.5438      2.5475      1.7343      3.6798
+Scale:       481.5402      4.2314      3.3227      5.1450
+Add:         555.5417      6.3234      4.3201      7.0335
+Triad:       495.4826      6.5195      4.8438      7.6951
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  842969  microseconds
+    (=  842969  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1377.7509      3.1893      1.1613      4.7079
+Scale:       694.7013      4.3254      2.3031      5.4888
+Add:         631.9475      6.4906      3.7978      8.2810
+Triad:       565.7319      6.3880      4.2423      8.8431
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1622386  microseconds
+    (=  1622386  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        985.2799      2.8534      1.6239      3.7751
+Scale:       449.2432      4.4015      3.5615      5.4933
+Add:         478.5300      6.2532      5.0154      7.2536
+Triad:       476.2639      6.5548      5.0392      8.4311
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1066755  microseconds
+    (=  1066755  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1272.2282      3.2787      1.2576      4.9090
+Scale:       660.3499      4.5746      2.4230      5.6353
+Add:         538.0172      6.2632      4.4608      7.7714
+Triad:       412.7904      7.1006      5.8141      8.1281
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  903171  microseconds
+    (=  903171  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1183.1712      2.7281      1.3523      3.4637
+Scale:       434.1497      4.5301      3.6854      5.3310
+Add:         413.5527      6.6928      5.8034      7.4967
+Triad:       424.2548      6.6662      5.6570      7.2330
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1561501  microseconds
+    (=  1561501  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        925.2176      3.0062      1.7293      3.9020
+Scale:       504.9954      4.6845      3.1683      5.2786
+Add:         380.0541      7.1169      6.3149      8.3597
+Triad:       445.4488      6.6757      5.3878      7.3323
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1148617  microseconds
+    (=  1148617  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        858.0239      2.9876      1.8648      3.7848
+Scale:       418.1278      4.8719      3.8266      5.8538
+Add:         459.9091      6.9572      5.2184      7.7702
+Triad:       422.7309      6.7614      5.6774      7.6223
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1035181  microseconds
+    (=  1035181  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        564.5768      3.8121      2.8340      5.4044
+Scale:       436.5068      4.3039      3.6655      5.1190
+Add:         495.4292      6.4184      4.8443      8.3757
+Triad:       453.4082      6.7143      5.2932      8.0051
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1325307  microseconds
+    (=  1325307  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        886.4521      2.5773      1.8049      2.8856
+Scale:       385.4485      4.8616      4.1510      6.2673
+Add:         448.3072      7.2084      5.3535      8.2803
+Triad:       406.5193      7.1368      5.9038      8.6093
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  990918  microseconds
+    (=  990918  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1277.3197      3.0667      1.2526      4.0614
+Scale:       630.2068      4.9743      2.5388      6.3446
+Add:         458.5920      7.0829      5.2334      9.6235
+Triad:       399.8849      7.6977      6.0017      9.1543
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  3711280  microseconds
+    (=  3711280  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        751.4228      2.5771      2.1293      3.4129
+Scale:       408.0368      5.2051      3.9212      5.9662
+Add:         438.4906      6.7745      5.4733      8.4858
+Triad:       437.0193      7.1496      5.4917      8.4008
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1317196  microseconds
+    (=  1317196  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        917.3760      3.1577      1.7441      3.7619
+Scale:       425.7629      4.6765      3.7580      5.7878
+Add:         418.0976      7.2807      5.7403      8.6503
+Triad:       382.7748      7.3024      6.2700      8.0944
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1022522  microseconds
+    (=  1022522  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1164.5714      3.3190      1.3739      4.4742
+Scale:       578.9573      4.6989      2.7636      6.4813
+Add:         451.3063      7.2296      5.3179      8.6849
+Triad:       399.8104      7.3384      6.0028      8.5595
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1132392  microseconds
+    (=  1132392  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        687.8289      3.4092      2.3262      4.6304
+Scale:       463.0866      4.7706      3.4551      7.0543
+Add:         401.1105      7.0851      5.9834      8.8432
+Triad:       464.1377      6.8528      5.1709      7.7129
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  956542  microseconds
+    (=  956542  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1324.3707      3.1512      1.2081      4.2847
+Scale:       614.9638      5.1943      2.6018      7.3112
+Add:         536.5784      7.3383      4.4728      8.5977
+Triad:       390.2882      7.8634      6.1493      9.2995
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1305612  microseconds
+    (=  1305612  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        764.7489      3.4220      2.0922      4.2731
+Scale:       419.2833      4.7982      3.8160      6.2940
+Add:         451.0458      7.2473      5.3210      9.0730
+Triad:       466.2390      7.3613      5.1476      8.4389
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1098623  microseconds
+    (=  1098623  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        990.7550      2.7075      1.6149      3.2063
+Scale:       393.2999      5.0698      4.0681      6.1484
+Add:         375.2111      7.7051      6.3964      9.3964
+Triad:       391.4628      7.7427      6.1309      9.8367
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1048543  microseconds
+    (=  1048543  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        695.0596      2.8222      2.3020      3.6225
+Scale:       355.8816      5.1324      4.4959      5.8739
+Add:         404.6564      7.3317      5.9310      8.3083
+Triad:       355.2075      7.1835      6.7566      7.5642
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1936693  microseconds
+    (=  1936693  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        638.6733      2.8236      2.5052      3.0218
+Scale:       367.5039      5.0850      4.3537      5.7086
+Add:         384.7587      6.9640      6.2377      8.0584
+Triad:       383.7933      7.4260      6.2534      9.1403
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1153746  microseconds
+    (=  1153746  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1139.6433      2.9184      1.4039      3.8515
+Scale:       542.5195      5.5182      2.9492      6.8216
+Add:         385.8500      7.9239      6.2200      9.7812
+Triad:       409.7432      7.7913      5.8573      9.9657
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1961902  microseconds
+    (=  1961902  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        699.3059      2.9392      2.2880      3.6227
+Scale:       435.2253      5.4390      3.6763      6.5641
+Add:         453.3432      7.1390      5.2940      8.3030
+Triad:       454.2206      7.9875      5.2838     11.7463
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1189469  microseconds
+    (=  1189469  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        755.6509      3.2569      2.1174      4.4519
+Scale:       423.2450      5.4035      3.7803      7.0730
+Add:         471.3350      7.4735      5.0919      9.6565
+Triad:       473.1842      7.9158      5.0720      9.2420
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1576473  microseconds
+    (=  1576473  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        608.5404      3.2635      2.6292      3.6857
+Scale:       372.7459      4.8940      4.2925      5.5004
+Add:         349.6317      7.5188      6.8644      7.9477
+Triad:       379.8936      7.2979      6.3176      8.3403
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  15155106  microseconds
+    (=  15155106  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        892.4871      3.0943      1.7927      3.8698
+Scale:       389.5801      5.2404      4.1070      6.6247
+Add:         567.3311      6.9492      4.2303      8.1592
+Triad:       500.6235      7.0018      4.7940      7.5411
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1042555  microseconds
+    (=  1042555  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1047.0663      3.2306      1.5281      4.8454
+Scale:       437.3921      5.1785      3.6580      6.2854
+Add:         522.0127      7.7522      4.5976      9.7271
+Triad:       451.4553      7.9799      5.3161      9.4170
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1461530  microseconds
+    (=  1461530  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        690.4268      2.8092      2.3174      3.3721
+Scale:       374.9711      5.5620      4.2670      6.6514
+Add:         452.9667      7.4017      5.2984      8.8161
+Triad:       411.1172      7.9800      5.8378      9.2961
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1990865  microseconds
+    (=  1990865  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        644.4477      3.4194      2.4827      4.0103
+Scale:       356.3758      5.0410      4.4896      5.8815
+Add:         415.4151      7.3208      5.7774      8.5207
+Triad:       407.9777      7.3977      5.8827      7.8641
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1711099  microseconds
+    (=  1711099  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        670.3828      3.1686      2.3867      4.2446
+Scale:       385.1812      4.7591      4.1539      5.5927
+Add:         436.7715      7.7491      5.4949      9.0969
+Triad:       433.1170      7.9858      5.5412     10.0107
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1187018  microseconds
+    (=  1187018  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        597.3448      3.5282      2.6785      4.6732
+Scale:       368.3881      5.3383      4.3432      6.2864
+Add:         393.6305      7.6527      6.0971      8.7058
+Triad:       384.5399      7.3629      6.2412      8.1718
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1597175  microseconds
+    (=  1597175  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        852.9730      3.7090      1.8758      5.4537
+Scale:       437.6162      5.0745      3.6562      6.1193
+Add:         421.3530      7.9033      5.6959     10.1765
+Triad:       423.6348      7.8062      5.6653      9.6066
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  912479  microseconds
+    (=  912479  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1022.6445      3.4700      1.5646      4.8770
+Scale:       379.3414      5.3843      4.2178      6.9676
+Add:         472.3993      7.7998      5.0804      9.0719
+Triad:       411.2080      8.3095      5.8365      9.9618
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  8067576  microseconds
+    (=  8067576  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        652.9767      3.0119      2.4503      3.5410
+Scale:       343.0418      5.3069      4.6642      6.4254
+Add:         384.1983      7.7780      6.2468      8.3758
+Triad:       364.5530      7.8291      6.5834      8.9772
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1683088  microseconds
+    (=  1683088  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        783.6384      3.1766      2.0418      3.8129
+Scale:       403.6979      5.7749      3.9634      7.0846
+Add:         465.6900      8.2584      5.1536     10.1813
+Triad:       501.7429      8.2818      4.7833      9.9814
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1360640  microseconds
+    (=  1360640  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        785.0480      3.3818      2.0381      4.8110
+Scale:       393.4241      5.7129      4.0669      7.3693
+Add:         500.9328      8.4662      4.7911     11.4991
+Triad:       479.7090      8.6803      5.0030     11.8157
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1123325  microseconds
+    (=  1123325  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        661.6552      3.5794      2.4182      4.4534
+Scale:       363.5822      5.7401      4.4007      6.9659
+Add:         392.8333      7.8461      6.1095      9.7946
+Triad:       426.1353      8.5672      5.6320     10.5519
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1479975  microseconds
+    (=  1479975  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        669.3942      3.6082      2.3902      5.6750
+Scale:       402.5539      5.8986      3.9746      6.9047
+Add:         508.3771      7.7124      4.7209      9.5584
+Triad:       460.3190      8.7567      5.2138     10.9536
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  2154427  microseconds
+    (=  2154427  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1009.9722      3.6830      1.5842      5.4222
+Scale:       463.3036      6.2480      3.4535      8.0369
+Add:         528.8204      8.8596      4.5384     11.3659
+Triad:       515.7569      8.2982      4.6534     10.2298
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  2340749  microseconds
+    (=  2340749  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1027.8549      3.7515      1.5566      4.8566
+Scale:       490.2751      6.1152      3.2635      8.7480
+Add:         540.1748      8.7941      4.4430     11.4752
+Triad:       571.0029      8.7124      4.2031     11.6886
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1622166  microseconds
+    (=  1622166  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        908.1755      3.4836      1.7618      5.5597
+Scale:       422.0352      6.5697      3.7912      9.5708
+Add:         469.2690      8.5782      5.1143     11.3731
+Triad:       515.5294      8.9989      4.6554     11.9564
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  6522088  microseconds
+    (=  6522088  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        810.9137      4.1320      1.9731      5.9560
+Scale:       492.6633      6.6370      3.2477      8.7931
+Add:         489.4961     10.5463      4.9030     14.5082
+Triad:       461.5342     10.7217      5.2000     14.4839
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  940437  microseconds
+    (=  940437  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        746.7047      3.4871      2.1427      4.9976
+Scale:       375.1090      6.0495      4.2654      7.3411
+Add:         411.0157      8.8691      5.8392     11.5567
+Triad:       418.9891      9.0185      5.7281     11.3180
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1661662  microseconds
+    (=  1661662  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        927.1133      3.1649      1.7258      4.3022
+Scale:       442.6877      6.5185      3.6143      9.3538
+Add:         522.5532      8.4776      4.5928     12.3890
+Triad:       486.7844      9.3868      4.9303     13.4883
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1848354  microseconds
+    (=  1848354  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        671.3961      5.4407      2.3831      7.6423
+Scale:       568.8005      5.3574      2.8129     10.5364
+Add:         536.8668      9.7525      4.4704     20.3499
+Triad:       584.5399     12.3269      4.1058     30.4766
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1005205  microseconds
+    (=  1005205  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1067.0871      3.3275      1.4994      4.6372
+Scale:       402.1887      6.0911      3.9782      7.9669
+Add:         438.1907      9.1793      5.4771     13.6700
+Triad:       427.3539      9.7259      5.6160     13.3315
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  11174860  microseconds
+    (=  11174860  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        728.2867      3.5127      2.1969      4.5314
+Scale:       387.8877      6.1180      4.1249      7.9048
+Add:         424.9488      8.6490      5.6477     11.0263
+Triad:       423.6768      8.3732      5.6647     11.4693
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  9956581  microseconds
+    (=  9956581  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        735.1238      4.0634      2.1765      5.4241
+Scale:       413.8018      5.5497      3.8666      7.3763
+Add:         461.6064      8.7558      5.1992     11.5071
+Triad:       475.0190      8.1805      5.0524     11.4949
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1897008  microseconds
+    (=  1897008  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        743.9003      3.7046      2.1508      4.7054
+Scale:       393.5660      6.4432      4.0654      8.9574
+Add:         450.6112      8.9364      5.3261     11.6528
+Triad:       476.1407      8.2751      5.0405     11.4838
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1312818  microseconds
+    (=  1312818  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        713.3348      3.7905      2.2430      5.2224
+Scale:       418.2885      6.0306      3.8251      8.2567
+Add:         473.4023      8.5300      5.0697     10.7624
+Triad:       475.9596      8.9263      5.0424     11.2866
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1846404  microseconds
+    (=  1846404  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        787.5213      4.0375      2.0317      5.2562
+Scale:       442.3756      6.1591      3.6168      7.8241
+Add:         497.5973      8.4275      4.8232      9.8582
+Triad:       522.6311      9.4433      4.5921     12.4440
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1694471  microseconds
+    (=  1694471  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        790.0232      3.6839      2.0253      4.6520
+Scale:       395.9898      6.7597      4.0405     10.9167
+Add:         459.0025      8.8890      5.2287     11.4068
+Triad:       527.2151      9.1212      4.5522     13.0096
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1243794  microseconds
+    (=  1243794  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        814.4102      3.5160      1.9646      4.7770
+Scale:       421.5509      7.0631      3.7955     11.1406
+Add:         496.7784      8.9359      4.8311     11.2188
+Triad:       610.0973      9.6424      3.9338     15.0023
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1525508  microseconds
+    (=  1525508  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        932.6526      3.6283      1.7155      5.6792
+Scale:       453.2087      6.5117      3.5304      8.4925
+Add:         603.3895      9.3688      3.9775     12.9651
+Triad:       675.0624      9.9093      3.5552     14.7970
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  7886747  microseconds
+    (=  7886747  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        668.0261      3.9537      2.3951      4.9001
+Scale:       392.0754      6.8837      4.0808     11.0316
+Add:         396.3003      8.5906      6.0560     11.8441
+Triad:       390.5376      9.5508      6.1454     13.6130
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1559292  microseconds
+    (=  1559292  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        841.4923      3.6930      1.9014      5.5289
+Scale:       457.7243      7.0682      3.4956      9.3500
+Add:         510.8849      9.2336      4.6977     12.0755
+Triad:       599.2631      8.7727      4.0049     11.5356
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  8068667  microseconds
+    (=  8068667  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        709.3488      5.2433      2.2556     11.9164
+Scale:       600.6802      8.6295      2.6636     20.6694
+Add:         653.3811     13.6034      3.6732     31.7653
+Triad:       586.3839     12.0399      4.0929     29.3061
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1675405  microseconds
+    (=  1675405  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        763.4808      4.3185      2.0957      6.1072
+Scale:       477.4392      6.5087      3.3512      8.8958
+Add:         516.6052      9.1488      4.6457     11.9896
+Triad:       574.0535      9.1415      4.1808     12.2012
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1825261  microseconds
+    (=  1825261  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        724.3670      4.1697      2.2088      7.5583
+Scale:       464.2068      7.2040      3.4467     14.6214
+Add:         513.8917     10.2612      4.6702     20.4399
+Triad:       484.7172     10.1201      4.9513     18.6268
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  969081  microseconds
+    (=  969081  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1057.8561      4.2044      1.5125      7.6736
+Scale:       574.5174      6.5707      2.7849     11.8213
+Add:         590.5821     11.4928      4.0638     19.3937
+Triad:       563.4358     10.0449      4.2596     16.3516
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  13093476  microseconds
+    (=  13093476  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        827.9581      3.4498      1.9325      4.5839
+Scale:       470.2103      6.6218      3.4027      8.8630
+Add:         477.0937      9.2925      5.0305     11.5716
+Triad:       485.0161      8.8907      4.9483     11.6436
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1410638  microseconds
+    (=  1410638  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        739.8259      4.6940      2.1627      6.4976
+Scale:       516.5002      6.7283      3.0978      8.7647
+Add:         528.9452      8.8580      4.5373     11.4672
+Triad:       543.3822      9.1562      4.4168     11.8786
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  1240643  microseconds
+    (=  1240643  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1233.8662      3.7994      1.2967      5.6325
+Scale:       642.7621      7.7012      2.4893     10.4851
+Add:         724.0040      9.9631      3.3149     13.9288
+Triad:       708.7524     10.0036      3.3862     14.7997
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  13829240  microseconds
+    (=  13829240  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        654.6203      4.0684      2.4442      5.2758
+Scale:       478.9765      6.9285      3.3405     10.2518
+Add:         448.4712      9.6313      5.3515     13.1898
+Triad:       444.1464      9.3451      5.4036     12.8488
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  9227852  microseconds
+    (=  9227852  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        677.7272      4.2195      2.3608      6.7403
+Scale:       482.6776      7.7581      3.3148     15.8944
+Add:         473.1370     11.6043      5.0725     19.1568
+Triad:       585.3876     10.8962      4.0998     18.6710
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  19299502  microseconds
+    (=  19299502  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1123.0434      4.8230      1.4247      8.4573
+Scale:       625.2257      7.4469      2.5591     11.2888
+Add:         640.8649     10.8527      3.7449     16.7188
+Triad:       608.5807     10.0316      3.9436     16.3195
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  2663277  microseconds
+    (=  2663277  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1089.5034      4.5571      1.4686      7.0933
+Scale:       477.2731      7.4700      3.3524     12.3307
+Add:         317.5630     11.2914      7.5576     18.0879
+Triad:       340.3393     10.8986      7.0518     17.6149
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  13492420  microseconds
+    (=  13492420  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        574.4281      4.1249      2.7854      5.2689
+Scale:       352.7972      6.9572      4.5352      9.0638
+Add:         332.2445     10.5153      7.2236     13.6586
+Triad:       340.8930     10.1373      7.0403     12.7435
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  8223128  microseconds
+    (=  8223128  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:        722.8606      4.7085      2.2134      6.8789
+Scale:       649.6285      7.6632      2.4629     11.1413
+Add:         667.8917     11.9745      3.5934     17.7026
+Triad:       630.1080     11.9910      3.8089     17.0523
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  47627652  microseconds
+    (=  47627652  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1146.3478      5.7546      1.3957     12.4183
+Scale:       653.6813      8.8133      2.4477     21.3219
+Add:         649.8584     12.4404      3.6931     31.0604
+Triad:       617.7500     10.9563      3.8851     21.5369
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+----------------------------------------------
+ Double precision appears to have 16 digits of accuracy
+ Assuming 8 bytes per DOUBLE PRECISION word
+----------------------------------------------
+ Array size =  100000000
+ Offset     =          0
+ The total memory requirement is 2288 MB
+ You are running each test  10 times
+ The *best* time for each test is used
+ ----------------------------------------------------
+ Your clock granularity/precision appears to be      1 microseconds
+ The tests below will each take a time on the order 
+ of  21224085  microseconds
+    (=  21224085  clock ticks)
+ Increase the size of the arrays if this shows that
+ you are not getting at least 20 clock ticks per test.
+ ----------------------------------------------------
+ WARNING -- The above is only a rough guideline.
+ For best results, please be sure you know the
+ precision of your system timer.
+ ----------------------------------------------------
+Function     Rate (MB/s)  RMS time   Min time  Max time
+Copy:       1153.5797      6.6033      1.3870     13.7723
+Scale:       641.1417     10.3618      2.4955     21.8005
+Add:         642.4729     15.3017      3.7356     36.8476
+Triad:       607.0615     13.9604      3.9535     35.9792
+ Sum of a is =  1.153300781812906E+20
+ Sum of b is =  2.306601563343331E+19
+ Sum of c is =  3.0754687489911873E+19
+
+real     9:35.6
+user        0.1
+sys         5.9

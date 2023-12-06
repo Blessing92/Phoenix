@@ -28,5 +28,5 @@ file.close()
 if count != 0 :
     speeds[0] = speeds[0]/count
 
-stdout.write("%6.1f MFlops (%d from %.1f to %.1f) Tempo: %s segundos\n" % \
+stdout.write("%6.1f MFlops (%d from %.1f to %.1f) Tempo: %s seconds\n" % \
     (speeds[0],count,speeds[1],speeds[2], time.time() - start))

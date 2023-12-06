@@ -8,15 +8,23 @@ comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 
 # Server-client socket communication
-def perform_computation_with_server(data):
-    try:
-        # Connect to the server
-        client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        server_address = ('<laptop_ip>', 8080)  # Replace with the IP address of your laptop
+# def perform_computation_with_server(data):
+try:
+    # Connect to the server
+    print("connecting to server ...")
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server_address = ('192.168.1.75', 8080)
+    print("successfully connected to server!")
+
+    while True:
         client_socket.connect(server_address)
 
         # Receive data from the server
         received_data = client_socket.recv(1024).decode()
+        if not received_data:
+            print("Waiting data from server...")
+            continue
+
         start_row, end_row = map(int, received_data.split(','))
 
         # Perform local computation
@@ -36,8 +44,8 @@ def perform_computation_with_server(data):
         # Close the connection
         client_socket.close()
 
-    except Exception as e:
-        print(f"Error in client (rank {rank}): {e}")
+except Exception as e:
+    print(f"Error in client (rank {rank}): {e}")
 
 # Example usage
-perform_computation_with_server("100,5,16")
+# perform_computation_with_server("100,5,16")
