@@ -69,7 +69,9 @@ def main():
     global_result = comm.reduce(local_result, op=MPI.SUM, root=0)
 
     if rank == 0:
-        print(f"Performance: {global_result} MLops")
+        # Convert the result to GigaUpdates per Second (GUPs)
+        global_result_gups = global_result / 1e9
+        print(f"Performance: {global_result_gups} GUPs")
 
 if __name__ == "__main__":
     main()
