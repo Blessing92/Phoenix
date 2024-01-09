@@ -1,3 +1,4 @@
+#hpl.py
 import time
 import random
 import numpy as np
@@ -37,6 +38,7 @@ def run_hpl(n, nr, tol=16):
     """
     a = np.random.rand(n, n)
     b = np.random.rand(n, 1)
+    print(f"a shape: {a.shape}, b shape: {b.shape}")
     x, t = iterate_func(nr, np.linalg.solve, a, b)
     r = np.dot(a, x) - b
     r0 = np.linalg.norm(r, np.inf)

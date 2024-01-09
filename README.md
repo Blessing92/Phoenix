@@ -21,8 +21,7 @@ Make sure you have the following installed:
 2. Install the required build dependencies:
 
     ```bash
-    apk add build-base ninja patchelf gfortran openblas-dev
-
+    apk add build-base ninja patchelf gfortran openblas-dev openmpi openmpi-dev
 
     ```
 
@@ -41,7 +40,7 @@ Make sure you have the following installed:
 
     ```
 
-5. Install NumPy and Scipy using pip within the virtual environment:
+5. Install NumPy Scipy MPI using pip within the virtual environment:
 
     ```bash
     pip install numpy
@@ -49,6 +48,10 @@ Make sure you have the following installed:
 
     ```bash
     pip install scipy
+    ```
+
+     ```bash
+    pip install mpi4py
     ```
 
 6. Verify the installation:
